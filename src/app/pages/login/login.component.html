@@ -1,0 +1,41 @@
+<div class = "bootstrap-wrapper"> <!--llamada a la clase wrapper de bootstrap-->
+  <div class = "container"> <!--llamada a la clase container de bootstrap-->
+    <div class = "row" style="margin-top: 20px;">
+      <div class = "col-md-6 offset-md-3">
+        <mat-card>
+          <div class = "container text-center">
+            <img src="../../../assets/Imagenes/login-icono.png" width = "100" height = "100">
+          </div>
+
+          <h1 class = "text-center">Inicio de sesión</h1>
+
+          <form action = ""> <!--Formulario login-->
+            <!--Nombre usuario-->
+            <mat-form-field class = "full-width" appearance = "outline">
+              <mat-label>Nombre de usuario</mat-label>
+              <input required  matInput placeholder="Digite su nombre de usuario">
+              <mat-hint>El nombre de usuario debe ser valido</mat-hint>
+            </mat-form-field>
+
+            <br><br>
+            <!--Contraseña-->
+            <mat-form-field class="full-width"  appearance = "outline">
+              <mat-label>Contraseña</mat-label>
+              <input required  type="password" matInput placeholder="Digite su contraseña">
+              <mat-hint>La contraseña debe ser valida</mat-hint>
+            </mat-form-field>
+
+            <br><br>
+
+            <!--Botones iniciar sesión y limpiar-->
+            <div class = "container text-center">
+              <button type = "submit" mat-raised-button color="primary">Iniciar sesión</button>
+              <button type="reset" style = "margin-left: 20px"  mat-raised-button color="accent">Limpiar</button>
+              <br><br><br>
+            </div>
+          </form>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>

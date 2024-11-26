@@ -1,0 +1,14 @@
+<!--Todas las rutas que estan en la barra de navegación navbar-->
+<!--nabvar-->
+
+<mat-toolbar color="primary">
+  <a [routerLink]="'/'" mat-button>
+    <mat-icon>menu_books</mat-icon>
+  </a>
+  <span> Portal de exámenes</span>  
+  <span class="example-spacer"></span>
+  <a [routerLink]="'/login'" mat-button>Iniciar sesión</a>
+  <a [routerLink]="'/signup'" mat-button>Registrar</a>
+  <a style="margin-right: 50px" mat-button>Cerrar sesión</a>
+  <button mat-button style="margin-right: 10px">Usuario</button>
+</mat-toolbar>
